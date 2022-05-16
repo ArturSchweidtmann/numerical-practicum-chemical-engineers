@@ -8,7 +8,10 @@ Course description follows.
 - [Recap/Intro of Prerequisites Part (1/3)](homework1/notebooks/HW1-intro-part1of3.ipynb) 
 - [Recap/Intro of Prerequisites Part (2/3)](homework1/notebooks/HW1-intro-part2of3.ipynb) 
 - [Recap/Intro of Prerequisites Part (3/3)](homework1/notebooks/HW1-intro-part3of3.ipynb);
-2. HW2: [Solving Reaction-Diffusion Systems in Pursuit of Turing Patterns (with Bijoy Bera in PDC Course)](homework2/notebooks/HW2-pde-reaction-diffusion.ipynb) 
+2. HW2:
+- [Time Integration of Initial Value Problems](homework2/notebooks/HW2-time-integration-ivp.ipynb)
+- [Solving Fisher as Reaction-Diffusion Systems in Pursuit of Turing Patterns (with Bijoy Bera in PDC Course)](homework2/notebooks/HW2-fisher.ipynb)
+- [Solving Brusselator as Reaction-Diffusion Systems in Pursuit of Turing Patterns (with Bijoy Bera in PDC Course)](homework2/notebooks/HW2-brusselator.ipynb) 
 3. HW3: [Solving the Poisson-Boltzmann Equation  (with Valeria Gabin and Pouyan Boukany in MTP Course)](homework3/notebooks/HW3-poisson-boltzmann.ipynb)
 4. HW4: [Assignment on Applied Transport Phenomena (Tom Burdyny and Alina Rwei)](homework4/notebooks/HW4-applied-transport-phenomena.ipynb)
 5. HW5: [Assignment on Reactors and Kinectics (dialogue with Ruud van Ommen)](homework5/notebooks/HW5-ode-reactors.ipynb)
@@ -20,26 +23,38 @@ Course description follows.
 
 ## Section 2/: Course Overview 
 
-### Section 1.2/: In general 
+### Section 1.2/: Course Information 
+- 6 ECTS in Q1 and Q2 of 2022 - 2023; 
+- 4 hours per week; 
+- more supervision/help/support in Q1; less so in Q2; 
 
-- formative assessment during the course: to be defined; 
-- summative assessment: via 6 homework assignments - no written exam any more - how to define retake? 
-- auto-grading of the assignments using nb-grader and unit-tests (give information to the students); 
+### Section 2.2/: Constructive Alignment for the Course 
 
-### Section 2.2/: Common to all Homework Assignments 
+#### Study goals: 
+Mathematical modeling and numerical simulation techniques are indispensable to address challenges in chemical engineering. These challenges include the combustion of hydro-carbon fuels in industry, irrigation in sustainable agriculture and the deployment of new instruments and materials in medicine. This course builds on two pilars. The first pilar encompasses tools related to solving partial differential equations numerically. These tools include methods for solving ordinary differential equations, non-linear and linear systems. The second pilar encompasses tools used to extract meaningful information from large collections of data. This data includes sound, image and video recordings resulting from either numerical simulations or experimental campaigns. Tools for data handling include methods for computing integrals, derivatives, trends, compression and frequency content. This course is subdivided into three compartments. In the first and second compartment, the first and second pilar are discussed seperately. The third compartment, the two pillars are combined using methods from calibration, optimization and assimilation to arrive at predictive models in advanced chemical engineering applications. 
 
-- Six assignments in total - 1 ECTS per assignment - 28 hours of work for students  
-- in Q1: three compulsory assignments (no freedom of choice); 
-- in Q2: possibly elective assignments (choice assignment corresponding to course); 
-- foresee model for the grading of the homeworks; 
+#### Learning activities: 
+The course divides the learning activities in three consequitive steps; 1/ allow students to work in group (or individually) on the assignments; 2/ facillitate in-classroom discussion/feedback/peer-review on the assignment (how to ask for feedback in such away that more reserved students are genuinely heard?); 3/ give lectures on-demand to after receiving input on the assignments; 
 
-### Section 3.2/: Other arrangements to be made
+#### Formative assessment: 
+20 percent of the grade on each of the six homework assignments; give 10 percent of the grade for free; take 10 percent of the grade back in case of poor participation (absence, obstructive behavior) in the course; reward above average participation in the course (giving lectures, moderating group discussions, tutoring fellow students, sharing sample code, seeking and sharing documentation, providing alternative pointers or examples) by adding 10 percent of the grade; 
+
+#### Summative assessment: 
+80 percent of the grade on each of the six homework assignments; completion of the assignment;  individual grade on first homework assignment; grade used as input for group formation; assessment per group of four (4) students for last five assignments; group grade on the last five homework assignments;
+
+#### Accessment matrix: 
+how to formulate? 
+
+### Section 3.2: Link to Miro-board for the course development
+[Miro board](https://miro.com/app/board/uXjVO6cz8ss=/?share_link_id=69985717280)
+
+### Section 4.2/: Other arrangements to be made
 
 - establish house rules for the course;
 - establish Q&A for the course;
 - Vocareum for auto-grading of the assignments;
 
-### Section 4.2/: Asked Jolanda Quak to arrange 
+### Section 5.2/: Asked Jolanda Quak to arrange 
 
 #### Prior to the summer 2022  
 1. notify TG that a book is no longer required; course will link to online resources instead; 
@@ -53,7 +68,7 @@ Course description follows.
 1. notify all students to enroll in course via BrightSpace; 
 2. instruct students on how to navigate to Vocareum and Jupiter notebook for Python through Vocareum;  
 
-### Section 5.2/: Teaching Support and BrightSpace Pages
+### Section 6.2/: Teaching Support and BrightSpace Pages
 Beste Domenico,
 
 Mijn collega's hebben het aanvragen van een nieuwe course, CH3133, voor volgend jaar via een TOPdesk call in gang gezet, echter vernamen wij van de Faculty Mandate dat dit vak in Osiris staat voor volgend jaar en dus automatisch aangemaakt zal worden. Als dit het geval is dan kunnen wij geen nieuwe course aanvragen, deze zou namelijk alleen maar verwarring opleveren wanneer er automatisch vanuit Osiris nieuwe courses worden aangemaakt voor volgend jaar, dan zou de course dubbel bestaan.
@@ -124,6 +139,9 @@ Introduction in Python programming in four parts. Used as reference for future p
 ### Section 4.3/: Sympy 
 1. high level overview
 
+### Section 5.3/: py-pde 
+1. My tutorial [my-py-pde-tutorial](my-py-pde-tutorial.ipynb)
+
 ### Section 5.3/: Python for Chemical Engineering Applications
 - [ChemPy and related tools](https://github.com/bjodah/chempy)
 - [Awesome Cheminformatics](https://project-awesome.org/hsiaoyi0504/awesome-cheminformatics): list of Cheminformatics tools. 
@@ -178,11 +196,11 @@ See notebook [Assignment on Reactors and Kinectics (dialogue with Ruud van Ommen
 Help in developing this assignment: Marc Caballero Megia (TA financed by EEMCS Faculty)
 
 
-## Section 9/: HW6: Assignment on Engineering Thermodynamics (Anna Smith)
+## Section 9/: HW6: Assignment on Engineering Thermodynamics (Anna Smith and Monique)
 
 See [notebook](homework6/notebooks/HW6-engineering-thermodynamics.ipynb).
 
-## Section 10/: HW7: Assignment on  Colloids and Interfaces (Laura and Monique)
+## Section 10/: HW7: Assignment on  Colloids and Interfaces (Laura and Valeria)
 
 Our goald here are to: 
 1. colloid: solve a model colloid transport in porous medium (blood flow through artery) taken from Tosco-Sehti-2009; we intend to use home-brewed code as well as py-pde;
@@ -202,19 +220,28 @@ References:
 
 ## Section 12/: HW9: Assignment on Inorganic Materials Engineering (Laurens Sibelles and Ferdinand Grozema) 
 
-References on molecular dynamics simulations:
+### Assignment on molecular dynamics simulations:
+
+#### References on Verlet time integration for second order differential equation of motion
+1. [Dynamical Systems in Differential Equations.jl](https://diffeq.sciml.ai/stable/solvers/dynamical_solve/)
+
+#### References on molecular dynamics
 1. [Short (4.11 min) video giving overview of molecular dynamics](https://www.youtube.com/watch?v=lLFEqKl3sm4)
  Valuable as introductory material, nice voice, good content; 
 2. [wiki page on molecular dynamics containing simulations](https://en.wikipedia.org/wiki/Molecular_dynamics)
-3. [Tutorial in implementing MD simulations in Python](https://klyshko.github.io/teaching/2019-03-01-teaching)
-4. [Molecular Dynamics using openmm.py](https://openmm.org) good content; 
-5. [mdanalysis](https://www.mdanalysis.org)
-6. [Molecular Dynamics using Molly.jl](https://juliamolsim.github.io/Molly.jl/stable/)
-7. Molecular Dynamics simulations for protein-folding: nice stuff! [ProtoSyn.jl code](https://github.com/sergio-santos-group/ProtoSyn.jl) (the list of 14 examples are potentially interesting to look into) and [Short (3.54 min) ProtoSyn video](https://www.youtube.com/watch?v=Z02zw8H-HQc)
-8. [(Advanced) Poster Presentation Julia software development for MD simulation](https://www.youtube.com/watch?v=wPRgd0mfwyM)
+
+#### Implementation in Python
+1. [Tutorial in implementing MD simulations in Python](https://klyshko.github.io/teaching/2019-03-01-teaching)
+2. [Molecular Dynamics using openmm.py](https://openmm.org) good content; 
+3. [mdanalysis](https://www.mdanalysis.org)
+
+#### Implementation in Julia 
+1. [Molecular Dynamics using Molly.jl](https://juliamolsim.github.io/Molly.jl/stable/)
+2. Molecular Dynamics simulations for protein-folding: nice stuff! [ProtoSyn.jl code](https://github.com/sergio-santos-group/ProtoSyn.jl) (the list of 14 examples are potentially interesting to look into) and [Short (3.54 min) ProtoSyn video](https://www.youtube.com/watch?v=Z02zw8H-HQc)
+3. [(Advanced) Poster Presentation Julia software development for MD simulation](https://www.youtube.com/watch?v=wPRgd0mfwyM)
 
 
-References on quantum thermodynamic simulations 
+### Assignment on quantum thermodynamic simulations: interesting for computation on eigenvalues and eigenvectors
 1. [Quantum Thermodynamics using Fermi.jl](https://github.com/FermiQC/Fermi.jl)
 
 ## Section 13/: HW10: Assignment on Machine Learning by Artur 
@@ -235,7 +262,33 @@ References
 11. [Literature: Overview Paper on Physics informed Neural Networks](https://arxiv.org/pdf/2201.05624.pdf) The part on ODEs might be valuable to us. 
 
 
-## Section 14/: Our Favorites 
+## Section 14/:  Industrial Assignments in Collaboration with CelSian BV Eindhoven 
+
+### First Assignment: Partial Differential Equations Models for Heat Transfer in Furnaces 
+
+- heat transfer in air by diffusion; heat transfer in air/lining by diffusion (first test to implement variable diffusion failed); non-linear diffusion is lining; add convection in air; add radiative heat transfer in the air; 
+- heat transfer in molten glass; thermal conductivity and density are temperature dependent leading to a non-linear problem; 
+- one and two spatial dimensions; 
+- finite difference method on uniform meshes; 
+- implementation in Python using [py-pde library](https://py-pde.readthedocs.io/en/latest/getting_started.html);  
+- TU Delft takes the lead; 
+
+### Second Assignment: Handling Lab Experimental Data to Estimate Thermo-Physical Properties of Molten Glass 
+
+- in production on glass, formation of bubbles of air in the molten glass forms a challenges. The modeling of  the formation of these bubbles requires a good estimate of the diffusion coefficient of species. These diffusion coefficients are typically known up to a high degree of uncertainty. Celsian therefore carries out lab test to be able to infer estimates of the diffusion coefficients from measurements;   
+- Gibs free energy mimization; an example of Gibbs free energy minimizer is [volpatto/gibbs](https://github.com/volpatto/gibbs). Requires equation of state (parameters to estimate, pressure and temperature dependence) and experimental data; a hierarchy of models would be nice to have here;  
+- Celsian takes the lead; 
+
+### Third Assignment: Optimal Design / Operation  Heat Transfer in Furnaces   
+
+- Zonal Models - Reduced order models - Specified desired objective - Formulate and solve optimization problem; 
+- TU Delft takes the lead;
+
+### Organization issues 
+
+Assignments will be deployed to students in November 2022; 
+
+## Section 15/: Our Favorites 
 1. Linear solvers and sparse matrices;
 2. FFT of Heart Rate Signals; 
 3. Growth Model;
