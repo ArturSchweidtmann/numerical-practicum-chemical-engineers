@@ -12,7 +12,9 @@ Course description follows.
 - [Time Integration of Initial Value Problems](homework2/notebooks/HW2-time-integration-ivp.ipynb)
 - [Solving Fisher as Reaction-Diffusion Systems in Pursuit of Turing Patterns (with Bijoy Bera in PDC Course)](homework2/notebooks/HW2-fisher.ipynb)
 - [Solving Brusselator as Reaction-Diffusion Systems in Pursuit of Turing Patterns (with Bijoy Bera in PDC Course)](homework2/notebooks/HW2-brusselator.ipynb) 
-3. HW3: [Solving the Poisson-Boltzmann Equation  (with Valeria Gabin and Pouyan Boukany in MTP Course)](homework3/notebooks/HW3-poisson-boltzmann.ipynb)
+3. HW3: 
+- [Solving the Poisson-Boltzmann Equation  (with Valeria Gabin and Pouyan Boukany in MTP Course)](homework3/notebooks/HW3-poisson-boltzmann.ipynb)
+- [Solution by TA A. Bharade (in progress)](https://github.com/gawdot/NP22_Bharade/blob/main/Poisson-Boltzmann.ipynb)
 4. HW4: [Assignment on Applied Transport Phenomena (Tom Burdyny and Alina Rwei)](homework4/notebooks/HW4-applied-transport-phenomena.ipynb)
 5. HW5: [Assignment on Reactors and Kinectics (dialogue with Ruud van Ommen)](homework5/notebooks/HW5-ode-reactors.ipynb)
 6. HW6: Assignment on Engineering Thermodynamics (Anna Smith)
@@ -67,6 +69,12 @@ how to formulate?
 #### Introduction Days end of August 2022 
 1. notify all students to enroll in course via BrightSpace; 
 2. instruct students on how to navigate to Vocareum and Jupiter notebook for Python through Vocareum;  
+
+#### Converstation Jolanda Quak and Stefan Gordijn May 18th, 2022 
+1. schedule for students: per week: 4 hours of contact with teaching staff (spread over two days), 4 hours of contact with the TAs (spread over two days) and 4 hours of homework;
+2. need to monitor time and content spend homework assignment; 
+3. in Q1 and Q2 spend 7 * 12 = 84 hours; in first semester spend 168 hours 
+4. need to ask Michael for indication of homework in Miro board;
 
 ### Section 6.2/: Teaching Support and BrightSpace Pages
 Beste Domenico,
