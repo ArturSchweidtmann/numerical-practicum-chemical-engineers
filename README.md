@@ -1,6 +1,7 @@
 # CH3133: Numerical Practicum 2022 - Current Overview
 
 Course description follows.
+<img src="./figures/course-overview.jpg" width=500 height=500 />
 
 ## Section 1/: List of Current Assignments
 
@@ -130,19 +131,24 @@ Introduction in Python programming in four parts. Used as reference for future p
 3. NumPy uses particular rules for broadcasting. Some documentation is [here](https://numpy.org/doc/stable/reference/generated/numpy.broadcast.html?highlight=broadcast#numpy.broadcast); more documentation is required;
 4. Numpy documentation hard to read. From the very start, users are confronted with other programming languages;  
 
-#### References 
-1. [Real Python: NumPy Tutorial: Your First Steps Into Data Science in Python](https://realpython.com/numpy-tutorial/)
-2. [Real Python: Look Ma, No For-Loops: Array Programming With NumPy](https://realpython.com/numpy-array-programming/)
-3. [Numpy Fundamentals](https://numpy.org/doc/stable/user/basics.html) (ask TU Delft students to prepare talks on ndarrays, broadcasting, ufunc?)
-4. [NumPy: the absolute basics for beginners](https://numpy.org/doc/stable/user/absolute_beginners.html) 
-5. [NumPy Reference](https://numpy.org/doc/stable/reference/index.html#reference)
+#### Learning Material 
+1. [NumPy: the absolute basics for beginners](https://numpy.org/doc/stable/user/absolute_beginners.html) compulsory read for all student; copy and paste examples to own note;
+2. [100 numpy exercises](https://github.com/rougier/numpy-100)
+3. [NumPy: Fundamentals](https://numpy.org/doc/stable/user/basics.indexing.html): array creation, indexing on ndarrys,broadcasting, unversal function basics; 
+4. [Numpy Tutorial](https://numpy.org/numpy-tutorials/content/tutorial-svd.html): linear algebra on ndarrays; 
+5. [Real Python: Look Ma, No For-Loops: Array Programming With NumPy](https://realpython.com/numpy-array-programming/): text that complement the previous with other examples; 
+6. [Real Python: NumPy Tutorial: Your First Steps Into Data Science in Python](https://realpython.com/numpy-tutorial/): text with many small interesting examples and pointers to other resources;  
 
-### Section 3.3/: Scipy (can we find a good tutorial?) 
-1. high level overview: function for (non-)linear systems, ODE and PDE does;
-2. [Nice Tutorial](https://scipy.github.io/devdocs/tutorial/linalg.html)
-3. [Scipy Users Guide](https://scipy.github.io/devdocs/tutorial/index.html#user-guide) (need to select appropriate parts) 
-4. [scipy-lectures.org](https://scipy-lectures.org)
-5. [Hans Petter Langtangen, A Primer in Scientific Computing Using Python, PDF file, 900+ pages](https://hplgit.github.io/primer.html/doc/pub/half/book.pdf): Can we summarize? Can we find other examples?
+#### References 
+1. [NumPy Reference](https://numpy.org/doc/stable/reference/index.html#reference): the glory details; 
+
+#### Assignment: Ask TU Delft students give demo, show how they solve problems and talks on topics such as ndarrays, broadcasting and ufunc
+
+### Section 3.3/: Scipy  
+1. [What is Scipy](https://data-flair.training/blogs/scipy-tutorial): high level overview and many examples;
+2. [scipy.linalg documentation from Users guide with examples](https://scipy.github.io/devdocs/tutorial/linalg.html) similar exists for other components of scipy. What to choose? 
+3. [scipy-lectures.org](https://scipy-lectures.org) include information on profiling; 
+4. [Hans Petter Langtangen, A Primer in Scientific Computing Using Python, PDF file, 900+ pages](https://hplgit.github.io/primer.html/doc/pub/half/book.pdf): Can we summarize? Can we find other examples?
 
 ### Section 4.3/: Sympy 
 1. high level overview
