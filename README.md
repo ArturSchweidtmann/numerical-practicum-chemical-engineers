@@ -3,35 +3,46 @@
 Course description follows.
 <img src="./figures/course-overview.jpg" width=500 height=500 />
 
-## Section 1/: List of Current Assignments
+## Section 1/: Overview of the First Quarter 
 
-1. HW1: 
+1. Python Programming Language - Week 1 
+- Numpy: 100 exercises in two teams subdivided in subteams 
+- Scipy and Sympy: 
+- Homework exercises 
+2. HW1: Preliminaries - Week 2 and Week 3 
 - [Recap/Intro of Prerequisites Part (1/3)](homework1/notebooks/HW1-intro-part1of3.ipynb) 
 - [Recap/Intro of Prerequisites Part (2/3)](homework1/notebooks/HW1-intro-part2of3.ipynb) 
 - [Recap/Intro of Prerequisites Part (3/3)](homework1/notebooks/HW1-intro-part3of3.ipynb);
-2. HW2:
-- [Time Integration of Initial Value Problems](homework2/notebooks/HW2-time-integration-ivp.ipynb)
-- [Solving Fisher as Reaction-Diffusion Systems in Pursuit of Turing Patterns (with Bijoy Bera in PDC Course)](homework2/notebooks/HW2-fisher.ipynb)
-- [Solving Brusselator as Reaction-Diffusion Systems in Pursuit of Turing Patterns (with Bijoy Bera in PDC Course)](homework2/notebooks/HW2-brusselator.ipynb) 
-3. HW3: 
-- [Solving the Poisson-Boltzmann Equation  (with Valeria Gabin and Pouyan Boukany in MTP Course)](homework3/notebooks/HW3-poisson-boltzmann.ipynb)
+3. HW2: Poisson-Boltzmann Equation (scalar equation)- Week 4 and Week 5 
+- [Solving Non-Linear Problems](homework2/notebooks/HW2-nonlinear-problems.ipynb): initial guess, Jacobian, solver call, solver performance; 
+- [Solving the Poisson-Boltzmann Equation](homework2/notebooks/HW2-poisson-boltzmann.ipynb)
 - [Solution by TA A. Bharade (in progress)](https://github.com/gawdot/NP22_Bharade/blob/main/Poisson-Boltzmann.ipynb)
-4. HW4: [Assignment on Applied Transport Phenomena (Tom Burdyny and Alina Rwei)](homework4/notebooks/HW4-applied-transport-phenomena.ipynb)
-5. HW5: [Assignment on Reactors and Kinectics (dialogue with Ruud van Ommen)](homework5/notebooks/HW5-ode-reactors.ipynb)
-6. HW6: Assignment on Engineering Thermodynamics (Anna Smith)
-7. HW7: Assignment on  Colloids and Interfaces (Laura and Monique)
-8. HW8: Assignment on Organic Materials Engineering (Eduardo and Pouyan) 
-9. HW9: Assignment on Inorganic Materials Engineering (Laurens Sibelles and Ferdinand Grozema) 
-10. HW10: Assignment on Machine Learning by Artur
+4. HW3: Reaction-Diffusion Systems (coupled system of equations) - Week 6 and Week 7 
+- [Time Integration of Initial Value Problems](homework3/notebooks/HW3-time-integration-ivp.ipynb)
+- [Solving Fisher as Reaction-Diffusion Systems in Pursuit of Turing Patterns](homework3/notebooks/HW3-fisher.ipynb)
+- [Solving Brusselator as Reaction-Diffusion Systems in Pursuit of Turing Patterns](homework3/notebooks/HW3-brusselator.ipynb) 
 
-## Section 2/: Course Overview 
+## Section 2/: Overview of the Second Quarter 
 
-### Section 1.2/: Course Information 
+1. HW4: Week 10 and Week 11
+- [Non-Linear Least-Squares Problems - Estimating Parameters in Reaction Systems](homework5/notebooks/HW5-ode-reactors.ipynb)
+
+2. HW5: Week 11 and Week 12 
+- [Applied Transport Phenomena](homework4/notebooks/HW4-applied-transport-phenomena.ipynb): heat transfer in industrial furnaces in collaboration with Celsian BV Eindhoven
+
+3. HW6: Week 13 and Week 14 
+- Machine Learning Assignment and imagine recognition for industrial furnaces in Collaboration with Danieli-Corus in Ijmuiden; 
+
+4. Visit to Shell Pernis Week 15 
+
+## Section 3/: Course Overview 
+
+### Section 1.3/: Course Information 
 - 6 ECTS in Q1 and Q2 of 2022 - 2023; 
 - 4 hours per week; 
 - more supervision/help/support in Q1; less so in Q2; 
 
-### Section 2.2/: Constructive Alignment for the Course 
+### Section 2.3/: Constructive Alignment for the Course 
 
 #### Study goals: 
 Mathematical modeling and numerical simulation techniques are indispensable to address challenges in chemical engineering. These challenges include the combustion of hydro-carbon fuels in industry, irrigation in sustainable agriculture and the deployment of new instruments and materials in medicine. This course builds on two pilars. The first pilar encompasses tools related to solving partial differential equations numerically. These tools include methods for solving ordinary differential equations, non-linear and linear systems. The second pilar encompasses tools used to extract meaningful information from large collections of data. This data includes sound, image and video recordings resulting from either numerical simulations or experimental campaigns. Tools for data handling include methods for computing integrals, derivatives, trends, compression and frequency content. This course is subdivided into three compartments. In the first and second compartment, the first and second pilar are discussed seperately. The third compartment, the two pillars are combined using methods from calibration, optimization and assimilation to arrive at predictive models in advanced chemical engineering applications. 
@@ -48,16 +59,16 @@ The course divides the learning activities in three consequitive steps; 1/ allow
 #### Accessment matrix: 
 how to formulate? 
 
-### Section 3.2: Link to Miro-board for the course development
+### Section 3.3/: Link to Miro-board for the course development
 [Miro board](https://miro.com/app/board/uXjVO6cz8ss=/?share_link_id=69985717280)
 
-### Section 4.2/: Other arrangements to be made
+### Section 4.3/: Other arrangements to be made
 
 - establish house rules for the course;
 - establish Q&A for the course;
 - Vocareum for auto-grading of the assignments;
 
-### Section 5.2/: Asked Jolanda Quak to arrange 
+### Section 5.3/: Asked Jolanda Quak to arrange 
 
 #### Prior to the summer 2022  
 1. notify TG that a book is no longer required; course will link to online resources instead; 
@@ -71,13 +82,23 @@ how to formulate?
 1. notify all students to enroll in course via BrightSpace; 
 2. instruct students on how to navigate to Vocareum and Jupiter notebook for Python through Vocareum;  
 
-#### Converstation Jolanda Quak and Stefan Gordijn May 18th, 2022 
-1. schedule for students: per week: 4 hours of contact with teaching staff (spread over two days), 4 hours of contact with the TAs (spread over two days) and 4 hours of homework;
-2. need to monitor time and content spend homework assignment; 
-3. in Q1 and Q2 spend 7 * 12 = 84 hours; in first semester spend 168 hours 
-4. need to ask Michael for indication of homework in Miro board;
+#### Email Bijoy Bera May 25th, 2022 regarding schedule of students 
 
-### Section 6.2/: Teaching Support and BrightSpace Pages
+1. need to monitor time and content spend homework assignment; 
+2. in Q1 and Q2 spend 7 * 12 = 84 hours; in first semester spend 168 hours 
+3. need to ask Michael for indication of homework in Miro board;
+
+##### Kwartaal 1 (sep-nov 2022)
+- 12 uren per week voor 7 weken
+- 6 contacturen: 4 uren op dinsdag en 2 uren op donderdag; van de 6 contacturen kunnen 4 uren voor hoorcollege zijn (dus met de docent) en 2 uren voor werkcollege (dus met de TAs)
+- 6 zelfstudieuren
+ 
+##### Kwartaal 2 (nov 2022-jan 2023)
+- 12 uren per week voor 7 weken
+- 4 contacturen: 2 uren op dinsdag en 2 uren op donderdag; van de 4 contacturen kunnen 2 uren voor hoorcollege zijn (dus met de docent) en 2 uren voor werkcollege (dus met de TAs)
+- 8 zelfstudieuren
+
+### Section 6.3/: Teaching Support and BrightSpace Pages
 Beste Domenico,
 
 Mijn collega's hebben het aanvragen van een nieuwe course, CH3133, voor volgend jaar via een TOPdesk call in gang gezet, echter vernamen wij van de Faculty Mandate dat dit vak in Osiris staat voor volgend jaar en dus automatisch aangemaakt zal worden. Als dit het geval is dan kunnen wij geen nieuwe course aanvragen, deze zou namelijk alleen maar verwarring opleveren wanneer er automatisch vanuit Osiris nieuwe courses worden aangemaakt voor volgend jaar, dan zou de course dubbel bestaan.
@@ -90,9 +111,9 @@ Excuses voor het ongemak,
 Vriendelijke groet,
 Willem Kerstjens
 
-## Section 3/: Software Instruments (needs revision)  
+## Section 4/: Software Instruments (needs revision)  
 
-### Section 1.3/: Python 
+### Section 1.4/: Python 
 
 #### Students should use Python and Jupyter notebook via Vocareum. 
 
@@ -125,7 +146,7 @@ Introduction in Python programming in four parts. Used as reference for future p
 8. [Talk: 11 Tips And Tricks To Write Better Python Code](https://www.youtube.com/watch?v=8OKTAedgFYg)
 9. [Talk: 25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
 
-### Section 2.3/: Numpy (can we find a good tutorial?)  
+### Section 2.4/: Numpy (can we find a good tutorial?)  
 1. High level overview: replace Python lists by Numpy vectors, matrices and operations on these objects. 
 2. NumPy uses C-order indexing. That means that the last index usually represents the most rapidly changing memory location, unlike Fortran, where the first index represents the most rapidly changing location in memory. This difference represents a great potential for confusion.
 3. NumPy uses particular rules for broadcasting. Some documentation is [here](https://numpy.org/doc/stable/reference/generated/numpy.broadcast.html?highlight=broadcast#numpy.broadcast); more documentation is required;
@@ -144,31 +165,31 @@ Introduction in Python programming in four parts. Used as reference for future p
 
 #### Assignment: Ask TU Delft students give demo, show how they solve problems and talks on topics such as ndarrays, broadcasting and ufunc
 
-### Section 3.3/: Scipy  
+### Section 3.4/: Scipy  
 1. [What is Scipy](https://data-flair.training/blogs/scipy-tutorial): high level overview and many examples;
 2. [scipy.linalg documentation from Users guide with examples](https://scipy.github.io/devdocs/tutorial/linalg.html) similar exists for other components of scipy. What to choose? 
 3. [scipy-lectures.org](https://scipy-lectures.org) include information on profiling; 
 4. [Hans Petter Langtangen, A Primer in Scientific Computing Using Python, PDF file, 900+ pages](https://hplgit.github.io/primer.html/doc/pub/half/book.pdf): Can we summarize? Can we find other examples?
 
-### Section 4.3/: Sympy 
+### Section 4.4/: Sympy 
 1. high level overview
 
-### Section 5.3/: py-pde 
+### Section 5.4/: py-pde 
 1. My tutorial [my-py-pde-tutorial](my-py-pde-tutorial.ipynb)
 
-### Section 5.3/: Python for Chemical Engineering Applications
+### Section 5.4/: Python for Chemical Engineering Applications
 - [ChemPy and related tools](https://github.com/bjodah/chempy)
 - [Awesome Cheminformatics](https://project-awesome.org/hsiaoyi0504/awesome-cheminformatics): list of Cheminformatics tools. 
 
-### Section 6.3/: Jupyter Notebook
+### Section 6.4/: Jupyter Notebook
 - How to guide students into the use of [Jupyter notebooks](https://jupyter.org)? 
 - How to guide TA in the use of [nb-grader](https://nbgrader.readthedocs.io/en/stable/)? Refer them to instructional videos by Gary Steele? 
 
-### Section 6.3/: Vocareum 
+### Section 6.4/: Vocareum 
 Cloud computing. Support for online distribution notebooks and grade administration using [Vocareum](https://www.vocareum.com).
 TEAMS has a Vocareum channel. Gary Steele has instructional videos on the use of Vocareum. 
 
-### Section 7.3/: Not Python 
+### Section 7.4/: Not Python 
 1. [Parallel Computing and Scientific Machine Learning (SciML): Methods and Applications](https://book.sciml.ai)
 2. [Material for the RWTH Julia workshop taking place on 17th and 18th February 2022](https://github.com/mfherbst/2022-rwth-julia-workshop)
 3. [Why We Use Julia, 10 Years Later](https://julialang.org/blog/2022/02/10years/)
@@ -178,26 +199,6 @@ TEAMS has a Vocareum channel. Gary Steele has instructional videos on the use of
 ```julia
 
 ```
-
-## Section 4/: HW1: Recap/Intro of Prerequisites in Various Parts
-
-See notebook [Recap/Intro of Prerequisites](homework1/notebooks/HW1-intro.ipynb). 
-
-## Section 5/: HW2: Solving Reaction-Diffusion Systems in Pursuit of Turing Patterns (with Bijoy Bera in PDC Course)
-
-See notebook [HW2-pde-reaction-diffusion](homework2/notebooks/HW2-pde-reaction-diffusion.ipynb). 
-
-Help in developing this assignment: Shruti Shruti (TA financed by EEMCS Faculty) 
-
-Tentative deadline for students to hand-in their assignment: October 30th; 
-
-## Section 6/: HW3: Solving the Poisson-Boltzmann Equation  (with Valeria Gabin and Pouyan Boukany in MTP Course)
-
-See notebook [HW3-Poisson-Boltzmann Equation  (with Valeria Gabin and Pouyan Boukany in MTP Course)](homework3/notebooks/HW3-poisson-boltzmann.ipynb)
-
-Help in developing this assignment: Abhimanyu Bharade (TA financed by EEMCS Faculty)
-
-Tentative deadline for students to hand-in their assignment: November 30th; 
 
 ## Section 7/: HW4: Assignment on Applied Transport Phenomena (Tom and Alina)
 
